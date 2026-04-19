@@ -1,0 +1,14 @@
+{
+  "name": "nft-marketplace-contracts",
+  "version": "1.0.0",
+  "description": "NFT Marketplace smart contracts",
+  "scripts": {
+    "start": "bash start.sh",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset --network development",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6"
+  }
+}
